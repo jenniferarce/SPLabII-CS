@@ -46,7 +46,7 @@ namespace SPLabII_CS
 
         public bool Exterminar(iExterminar algo)
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         #endregion

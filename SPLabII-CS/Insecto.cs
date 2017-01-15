@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace SPLabII_CS
 {
-    class Insecto
+    [XmlInclude(typeof(Cucaracha))]
+    [Serializable]
+    public class Insecto
     {
         protected eElemento _elementoparaExterminar;
         protected eElemento _elementoQueMeExtermina;

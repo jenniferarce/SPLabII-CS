@@ -5,6 +5,7 @@ using System.Text;
 
 namespace SPLabII_CS
 {
+    [Serializable]
     public class Cucaracha:Insecto, iExterminar
     {
         private eColor _color;
